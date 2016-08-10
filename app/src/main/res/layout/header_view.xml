@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_h"
+    >
+    <!--头图 -->
+    <ImageView
+        android:id="@+id/header_cover"
+        android:src="@drawable/header_cover"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_h"
+        android:layout_alignParentBottom="false"
+        />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <!--姓名-->
+
+        <!--为什么阴影无效？-->
+        <TextView
+            android:id="@+id/header_name"
+            android:layout_marginTop="@dimen/name_mgt"
+            android:layout_marginRight="@dimen/name_mgr"
+            android:layout_marginEnd="@dimen/name_mgr"
+            android:text="@string/name_txt"
+            android:textSize="@dimen/name_fz"
+            android:textColor="@color/name_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:shadowColor="@color/name_shadow_color"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:layout_marginBottom="@dimen/name_mbt"/>
+
+
+        <!--头像-->
+        <ImageView
+            android:id="@+id/header_avatar"
+            android:src="@drawable/avatar"
+            android:background="@drawable/avatar_boder"
+            android:layout_marginEnd="@dimen/avatar_mgr"
+            android:layout_marginRight="@dimen/avatar_mgr"
+            android:layout_width="@dimen/avatar_w"
+            android:layout_height="@dimen/avatar_h"
+            android:padding="@dimen/avatar_padding"/>
+
+    </LinearLayout>
+</RelativeLayout>

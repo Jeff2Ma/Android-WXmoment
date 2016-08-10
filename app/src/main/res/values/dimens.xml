@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="layout_h">325dp</dimen>
+    <dimen name="header_h">300dp</dimen>
+    <dimen name="header_mgb">30dp</dimen>
+
+    <!--姓名-->
+    <dimen name="name_mgt">20dp</dimen>
+    <dimen name="name_mgr">10dp</dimen>
+    <dimen name="name_fz">20sp</dimen>
+    <dimen name="name_mbt">30dp</dimen>
+
+    <!--头像-->
+    <dimen name="avatar_mgr">15dp</dimen>
+    <dimen name="avatar_w">80dp</dimen>
+    <dimen name="avatar_h">80dp</dimen>
+    <dimen name="avatar_padding">3dp</dimen>
+
+</resources>
