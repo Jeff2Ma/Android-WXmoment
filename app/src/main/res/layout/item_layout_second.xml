@@ -59,6 +59,15 @@
                 android:text="马特，我给自己加薪！"
                 android:textColor="#5d5d5d"/>
 
+            <!--朋友圈插图-->
+            <ImageView
+                android:id="@+id/item_pic"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic"
+                android:layout_width="150dp"
+                android:layout_marginBottom="15dp"
+                android:layout_height="180dp"/>
+
 
             <RelativeLayout
                 android:layout_width="match_parent"

@@ -34,14 +34,20 @@ public class MomentActivity extends AppCompatActivity {
         * */
         ItemData itemsData[] = {
                 new ItemData("马化腾",R.drawable.pony,"Ladies and 乡亲们，今年打算给腾讯全体员工涨薪！哈哈哈哈哈哈哈哈哈哈哈哈哈哈","1分钟前",R.drawable.pic),
-                new ItemData("雷军",R.drawable.a2,"Ladies and 乡亲们，今年打算给小米全体员工涨薪！","3分钟前",0),
-                new ItemData("李开复",R.drawable.a4,"Ladies and 乡亲们，今年打算给创新工场全体员工涨薪！","1小时前",0),
+                new ItemData("雷军",R.drawable.a2,"Ladies and 乡亲们，今年打算给小米全体员工涨薪！","3分钟前",R.drawable.pic),
+                new ItemData("李开复",R.drawable.a4,"Ladies and 乡亲们，今年打算给创新工场全体员工涨薪！","1小时前",R.drawable.pic),
                 new ItemData("罗永浩",R.drawable.a3,"Ladies and 乡亲们，今年打算给锤子全体员工涨薪！","10分钟前",R.drawable.pic2),
-                new ItemData("周鸿祎",R.drawable.a5,"Ladies and 乡亲们，今年打算给360 全体员工涨薪！","2小时前",0),
-                new ItemData("张朝阳",R.drawable.a6,"Ladies and 乡亲们，今年打算给搜狐全体员工涨薪！","1天前",0),
+                new ItemData("周鸿祎",R.drawable.a5,"Ladies and 乡亲们，今年打算给360 全体员工涨薪！","2小时前",R.drawable.pic),
+
+                new ItemData("张朝阳",R.drawable.a6,"Ladies and 乡亲们，今年打算给搜狐全体员工涨薪！","1天前",R.drawable.pic),
+                new ItemData("张朝阳",R.drawable.a6,"Ladies and 乡亲们，今年打算给搜狐全体员工涨薪！","1天前",R.drawable.pic),
+                new ItemData("张朝阳",R.drawable.a6,"Ladies and 乡亲们，今年打算给搜狐全体员工涨薪！","1天前",R.drawable.pic),
+                new ItemData("张朝阳",R.drawable.a6,"Ladies and 乡亲们，今年打算给搜狐全体员工涨薪！","1天前",R.drawable.pic),
+                new ItemData("张朝阳",R.drawable.a6,"Ladies and 乡亲们，今年打算给搜狐全体员工涨薪！","1天前",R.drawable.pic),
+
                 new ItemData("比尔盖茨BillGates",R.drawable.a8,"Ladies and 乡亲们，今年打算盖茨基金会再裸捐50% 身家！","2天前",R.drawable.pic3),
-                new ItemData("黄章",R.drawable.a7,"Ladies and 乡亲们，今年打算给魅族全体员工涨薪！","2天前",0),
-                new ItemData("谢盖尔 布林",R.drawable.a9,"Ladies and 乡亲们，今年打算给谷歌全体员工涨薪！","2天前",0)
+                new ItemData("黄章",R.drawable.a7,"Ladies and 乡亲们，今年打算给魅族全体员工涨薪！","2天前",R.drawable.pic),
+                new ItemData("谢盖尔 布林",R.drawable.a9,"Ladies and 乡亲们，今年打算给谷歌全体员工涨薪！","2天前",R.drawable.pic)
         };
 
         // 设置 layoutManger
