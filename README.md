@@ -2,6 +2,8 @@
 
 > Android 入门学习项目-使用RecycleView 实现仿朋友圈界面
 
+> 另：iOS 版本传送门：[iOS-WXmoment](https://github.com/Jeff2Ma/iOS-WXmoment/)
+
 ## 说明
 
 从界面上实现仿朋友圈信息流界面的效果，暂不考虑逻辑层面的东西。
